@@ -14,5 +14,6 @@ function updateClock(){
 
     document.getElementById("date").textContent = `${hours}: ${minutes}: ${seconds}:`
 
-    
+    setInterval(updateClock, 1000)
 }
+updateClock();
