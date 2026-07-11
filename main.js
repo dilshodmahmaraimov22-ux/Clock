@@ -10,4 +10,9 @@ function updateClock(){
     const minutes = now.getMinutes().toString().padStart(2, 0);
 
     const seconds = now.getSeconds().toString().padStart(2, 0);
+
+
+    document.getElementById("date").textContent = `${hours}: ${minutes}: ${seconds}:`
+
+    
 }
